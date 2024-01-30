@@ -35,8 +35,9 @@ n*: Matches any string containing zero or more occurrences of n.
 
 ### Grouping Constructs
 
+Allow you to group parts of a pattern together. They are enclosed within parentheses ()
 
-
+(abc): This creates a capturing group that matches the sequence "abc".
 (?:grouping)
 
 ### Bracket Expressions
@@ -63,21 +64,17 @@ pattern1|pattern2
 
 ### Flags
 
+Also called modifiers or options, are special tokens that alter the behavior of the regex pattern matching. These can be applied at the beginning or end of the regex pattern and affect how the pattern is interpreted and matched against the input text. 
 
 
 /pattern/gi
 
 ### Character Escapes
 
+Are special sequences that represent characters with special meaning or characters that are difficult to represent directly in a regex pattern. These escapes begin with a backslash \ followed by a character, and they are used to match specific characters or character classes.
 
-
-\$
+\d: Matches any digit character (equivalent to [0-9]).
 
 ## Author
 
 This tutorial is made by Kayleena Bellew, I am currently a student in full stack web-dev at KU, a regex beginner but did a lot of research to get the most informational tutorial. Check out my profile at (https://github.com/KKBellew/ ).
-
-extras- sites where i obtiained the info for this tutorial from. 
-1.https://www.variables.sh/what-is-regex/
-2.indeed.com
-3.mozilla
